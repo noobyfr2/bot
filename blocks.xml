@@ -1,0 +1,78 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <block type="s4d_login" id="z+@oVdx[Ff2C.Gxd_r#=" x="554" y="181">
+    <value name="TOKEN">
+      <shadow type="text" id="IA/9U5*`N!,.P8QcYt#1">
+        <field name="TEXT">MTI4NzM1NDE4NjQ1NDkyNTM3NA.GFrBvU.vOdHWThrtUp9muYpfcJQlLYIEE7N23zYHZdErM</field>
+      </shadow>
+    </value>
+  </block>
+  <block type="initialize_dashboard" id="oT{BL:dn3g(r[HZU,5)0" x="547" y="288">
+    <field name="theme">dark</field>
+    <field name="requiree">Darkyo</field>
+    <value name="NAME">
+      <block type="jg_text_remake_paragraph_quotes" id=",RwS)QovI^`1+[I,V|Mi">
+        <field name="TEXT">Dashboat</field>
+      </block>
+    </value>
+    <value name="description">
+      <block type="jg_text_remake_paragraph_quotes" id="BD-CZ)rAZm=Xa(FBEjTd">
+        <field name="TEXT">N/A</field>
+      </block>
+    </value>
+    <value name="support_server_url">
+      <block type="jg_text_remake_paragraph_quotes" id="6[J6fXU/l10_*$R~qzX=">
+        <field name="TEXT">N/A</field>
+      </block>
+    </value>
+    <value name="bot_invite_url">
+      <block type="jg_text_remake_paragraph_quotes" id="}oOu5!*e5+=SkpQ;3Jc%">
+        <field name="TEXT">N/A</field>
+      </block>
+    </value>
+    <value name="base_url">
+      <block type="jg_text_remake_paragraph_quotes" id="lX#IunX}0*U{.WTQIv`;">
+        <field name="TEXT">localhost</field>
+      </block>
+    </value>
+    <value name="port">
+      <block type="math_number" id="9;3:nEwP0Cme|uKOhPSe">
+        <field name="NUM">8027</field>
+      </block>
+    </value>
+    <value name="noPortIncallbackUrl">
+      <block type="logic_boolean" id="PVeDSm8V[Zgxi%KO-p!I">
+        <field name="BOOL">FALSE</field>
+      </block>
+    </value>
+    <value name="secret">
+      <block type="jg_text_remake_paragraph_quotes" id="?TQhn{ZA%t]6nA:em=TD">
+        <field name="TEXT">nZYqc1PB5mY9LgUC8xBhpC5n4AtKeHDQ</field>
+      </block>
+    </value>
+    <value name="logRequests">
+      <block type="logic_boolean" id="R;cDPmks#SeyRx?2jM_F">
+        <field name="BOOL">FALSE</field>
+      </block>
+    </value>
+    <value name="injectCSS">
+      <block type="jg_text_remake_paragraph_quotes" id="YGw#dx1}[HP2:Sr|xQCo">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="favicon_path">
+      <block type="jg_text_remake_paragraph_quotes" id="/||n|PyUJZUce,13KJ(o">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="permissions">
+      <block type="lists_create_with" id=":n!t^@q`/:Pw09H!M(DL">
+        <mutation items="1"></mutation>
+        <value name="ADD0">
+          <block type="jg_text_remake_paragraph_quotes" id="`;i@FZ|{!#8#LrdhID@)">
+            <field name="TEXT">VIEW_CHANNEL</field>
+          </block>
+        </value>
+      </block>
+    </value>
+  </block>
+</xml>
